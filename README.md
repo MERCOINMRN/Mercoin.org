@@ -1,2 +1,0 @@
-# Mercoin.org
-mercoin.org
