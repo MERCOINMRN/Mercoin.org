@@ -332,62 +332,6 @@ html {
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
-/* desplegable */
-
-
-.wrap {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto; }
-
-.main {
-  width: 100%;
-  min-height: 1500px; }
-
-.seccionToggle {
-  display: none;
-  height: calc(100vh - 50px);
-  background: #fff;
-  color: #001F3F;
-  padding: 50px 0;
-  text-align: center; }
-  .seccionToggle h2 {
-    font-size: 60px;
-    margin-top: 50px; }
-  .seccionToggle p {
-    font-size: 20px;
-    margin-bottom: 50px; }
-  .seccionToggle button {
-    background: none;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 40px;
-    display: inline-block;
-    border: 5px solid #001F3F;
-    transition: 0.3s all ease; }
-    .seccionToggle button:hover {
-      border: 5px solid #0074D9;
-      color: #0074D9; }
-
-.btn-toggle {
-  height: 50px;
-  line-height: 50px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #000;
-  display: block;
-  background: #FFDC00;
-  text-align: center; }
-  .btn-toggle:hover {
-    text-decoration: none; }
-
-@media screen and (max-width: 500px) {
-  .seccionToggle h2 {
-    margin-top: 0; } }
-@media screen and (max-height: 550px) {
-  .seccionToggle h2 {
-    font-size: 40px;
-    margin-top: 0; } }
 
 /* Form */
 
@@ -1598,7 +1542,7 @@ html {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 50rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1674,6 +1618,12 @@ html {
 			#main article {
 				padding: 3rem 1.5rem 0.5rem 1.5rem ;
 			}
+
+		}
+/* equipo */
+
+		#equipo {
+			width: 60rem;
 
 		}
 
